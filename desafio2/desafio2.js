@@ -27,7 +27,7 @@ class Contenedor {
               (ultimoId[0].id + 1)
           )
         )
-        .catch(() => console.log('Hubo un error al crearse el producto'));
+        .catch(() => console.log('Hubo un error al crear el producto'));
     } catch (error) {
       // Si no existe el archivo, creamos por primera vez la lista de productos
       fs.promises
@@ -38,7 +38,7 @@ class Contenedor {
         .then(() =>
           console.log('Se creo exitosamente el primer producto con el id: ' + 1)
         )
-        .catch(() => console.log('Hubo un error al crearse el producto'));
+        .catch(() => console.log('Hubo un error al crear el producto'));
     }
   }
 
@@ -122,7 +122,11 @@ const productos = new Contenedor('productos');
 // productos.save({ title: 'tituloA', price: 3000, thumbnail: 'titulo1' });
 // productos.save({ title: 'tituloB', price: 2000, thumbnail: 'titulo2' });
 // productos.save({ title: 'tituloC', price: 1000, thumbnail: 'titulo3' });
+
 // productos.getById(1)
+
 // productos.getAll();
+
 // productos.deleteById(2);
+
 //productos.deleteAll();
