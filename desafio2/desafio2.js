@@ -119,10 +119,10 @@ class Contenedor {
 }
 
 const productos = new Contenedor('productos');
-// productos.save({ title: 'titulo3', price: 3, thumbnail: 'titulo3' });
-// productos.save({ title: 'titulo2', price: 2, thumbnail: 'titulo2' });
-// productos.save({ title: 'titulo1', price: 1, thumbnail: 'titulo1' });
-// productos.getById(4)
+// productos.save({ title: 'tituloA', price: 3000, thumbnail: 'titulo1' });
+// productos.save({ title: 'tituloB', price: 2000, thumbnail: 'titulo2' });
+// productos.save({ title: 'tituloC', price: 1000, thumbnail: 'titulo3' });
+// productos.getById(1)
 // productos.getAll();
 // productos.deleteById(2);
 //productos.deleteAll();
